@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/admin/customer" element={<Customers />} />
 
           {/* Charts */}
-
+        
           {/* Apps */}
           
         </Routes>
