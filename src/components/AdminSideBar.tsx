@@ -7,6 +7,7 @@ import {FaChartBar,FaChartPie,FaChartLine,FaStopwatch,FaGamepad} from 'react-ico
 
 const AdminSideBar = () => {
   const location = useLocation();
+  console.log(location);
 
   return (
     <aside>
@@ -70,7 +71,7 @@ const DivTwo =({location}:{location:Location})=>(
             location={location}
           />
           <Li
-            url="/admin/line"
+            url="/admin/chart/line"
             Icon={FaChartLine}
             text="Line"
             location={location}
