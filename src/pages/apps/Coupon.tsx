@@ -1,7 +1,11 @@
+import AdminSideBar from "../../components/AdminSideBar"
 
 const Coupon = () => {
   return (
-    <div>Coupon</div>
+    <div className="admin-container">
+    <AdminSideBar />
+    <main className="dashboard-app-container"></main>
+    </div>
   )
 }
 
