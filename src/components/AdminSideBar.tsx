@@ -93,11 +93,11 @@ const DivThree =({location}:{location:Location})=>(
           <Li
             url="/admin/app/coupon"
             Icon={RiCoupon3Fill}
-            text="Product"
+            text="Coupon"
             location={location}
           />
           <Li
-            url="/admin/app/game"
+            url="/admin/app/toss"
             Icon={FaGamepad}
             text="Game"
             location={location}
